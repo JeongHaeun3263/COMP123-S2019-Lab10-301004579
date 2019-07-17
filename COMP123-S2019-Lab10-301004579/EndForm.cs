@@ -28,5 +28,10 @@ namespace COMP123_S2019_Lab10_301004579
             mainForm.Show();
             this.Hide();
         }
+
+        private void EndForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -57,6 +57,7 @@
             this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EndForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EndForm_FormClosing);
             this.Load += new System.EventHandler(this.EndForm_Load);
             this.ResumeLayout(false);
 
