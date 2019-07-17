@@ -19,7 +19,13 @@ namespace COMP123_S2019_Lab10_301004579
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            //mainForm.Show();
+
+        }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            EndForm endform = new EndForm();
+            endform.Show();
             this.Hide();
         }
     }
