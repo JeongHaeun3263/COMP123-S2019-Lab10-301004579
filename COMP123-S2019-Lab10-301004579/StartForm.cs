@@ -28,7 +28,7 @@ namespace COMP123_S2019_Lab10_301004579
             //MainForm mainForm = new MainForm();
             //mainForm.Show();
             //this.Hide();
-            Program.startForm.Hide();
+            Hide();
             Program.mainForm.Show();
         }
     }

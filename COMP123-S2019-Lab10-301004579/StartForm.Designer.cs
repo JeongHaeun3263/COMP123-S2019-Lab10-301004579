@@ -47,6 +47,7 @@
             this.Font = new System.Drawing.Font("Gulim", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(7);
+            this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "StartForm";
             this.Opacity = 0.8D;
